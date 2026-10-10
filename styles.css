@@ -36,29 +36,42 @@ body {
 
 /* --- NOMBRE --- */
 .name {
-  font-size: 28px;
-  margin-top: 16px;
+  font-size: 1.7rem;
+  margin-top: 1rem;
 }
 
 /* --- BIO --- */
 .bio {
-  font-size: 15px;
+  font-size: 0.94rem;
   color: #a0a0b0;
-  margin-top: 8px;
+  margin-top: 0.5rem;
 }
 
 /* --- CONTENEDOR DE ENLACES --- */
 .links {
-  margin-top: 24px;
+  margin-top: 1.5rem;
 }
 
 /* --- CADA ENLACE --- */
 .link {
   display: block;
-  padding: 14px;
-  margin-top: 12px;
+  padding: 0.75rem;
+  margin-top: 0.75rem;
   border: 1px solid #2a2a38;
   color: #ffffff;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 0.94rem;
+}
+
+
+@media (min-width: 768px) {
+  .name{
+    font-size: 2.2rem;
+  }
+
+  .card{
+    width: 100%;
+    max-width: 700px;
+    padding: 5px 0px;
+  }
 }
